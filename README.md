@@ -1,4 +1,5 @@
 # ecs170_project
+![image](https://github.com/zhxu33/ecs170_project/assets/77419802/e7154bd6-84f9-4568-be4c-82f8f5ea081f)
 
 ## app
 This contains the flask web app for human action prediction.
