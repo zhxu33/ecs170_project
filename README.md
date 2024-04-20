@@ -13,7 +13,7 @@ python app.py
 ## dataset
 Contains the original dataset/models pulled from [Kaggle](https://pages.github.com/). Since the zipped file size is too large, the dataset has to be added in locally.
 
-The dataset can also be downloaded [here] (https://file.io/j964kvgYlzKA). Insert **emirhan_human_dataset.zip** in **model/** and unzip it there.
+The dataset can also be downloaded [here](https://file.io/j964kvgYlzKA). Insert **emirhan_human_dataset.zip** in **model/** and unzip it there.
 
 
 ## model/
