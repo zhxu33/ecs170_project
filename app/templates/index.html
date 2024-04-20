@@ -56,6 +56,17 @@
             document.getElementById('fileInput').click();
         }
         function autoSubmit() {
+            const fileInput = document.getElementById('fileInput');
+            const filePath = fileInput.value;
+            const allowedExtensions = /(\.jpg)$/i;
+            
+            if (!allowedExtensions.exec(filePath)) {
+                alert('Please upload file having extensions .jpg only.');
+                fileInput.value = ''; // Reset the input
+                return false;
+            }
+            
+            // If file is valid, submit the form
             document.getElementById('uploadForm').submit();
         }
     </script>

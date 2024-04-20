@@ -7,8 +7,8 @@ import json
 app = Flask(__name__)
 
 # Load the pre-trained model and class_indices
-model = load_model('models/mobilenet_human_action_model.h5')
-with open('class_indices.json', 'r') as f:
+model = load_model('model/final_model.h5')
+with open('model/class_indices.json', 'r') as f:
     class_indices = json.load(f)
 class_labels = {v: k for k, v in class_indices.items()}
 
