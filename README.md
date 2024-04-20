@@ -14,6 +14,7 @@ pip install Flask tensorflow
 cd app
 python app.py
 ```
+Open http://localhost:5000 to view it in your browser.
 
 ## dataset
 Contains the original dataset/models pulled from [Kaggle](https://pages.github.com/). Since the zipped file size is too large, the dataset has to be added in locally.
@@ -27,3 +28,11 @@ This notebook is where we preprocessed data and created our models using CNN.
 
 > ### model.py
 Contains the final model built using MobileNet CNN.
+
+> ### To set up new model
+```
+cd model
+python model.py
+rm ../app/model/class_indices.json ../app/model/final_model.h5
+mv class_indices.json ../app/model/ && mv final_model.h5 ../app/model/
+```

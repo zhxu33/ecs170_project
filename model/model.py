@@ -45,8 +45,8 @@ def train_model_with_mobile_net():
     history = model.fit(train_generator, validation_data=test_generator, epochs=5, callbacks=callbacks, verbose=1)
 
     # Save the trained model
-    model.save('mobilenet_human_action_model.h5')
-    print("Model saved as mobilenet_human_action_model.h5")
+    model.save('final_model.h5')
+    print("Model saved as final_model.h5")
 
     # Save the class indices
     with open('class_indices.json', 'w') as f:
