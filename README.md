@@ -23,11 +23,14 @@ Download **archive.zip** from [Kaggle](https://www.kaggle.com/datasets/emirhanai
 
 ## model/
 
-> ### human-action-detection-using-cnn.ipynb
-This notebook is where we preprocessed data and created our models using CNN.
+> ### human-action-detection.ipynb
+This notebook is where we preprocessed data and experimented with models using CNN.
 
 > ### model.py
 Contains the final model built using MobileNet CNN.
+
+> ### human-action-detection-using-cnn.ipynb
+This is a notebook we found on [Kaggle](https://www.kaggle.com/datasets/emirhanai/) to use as a scaffolding resource.
 
 > ### To set up new model
 ```
