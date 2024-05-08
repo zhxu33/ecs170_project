@@ -1,5 +1,5 @@
 # ecs170_project
-![image](https://github.com/zhxu33/ecs170_project/assets/77419802/53060682-9e60-41ed-bb32-1a12513e20ac)
+<img src="https://github.com/zhxu33/ecs170_project/assets/77419802/53060682-9e60-41ed-bb32-1a12513e20ac" width="200">
 
 ## app
 This contains the flask app for human action prediction.
@@ -36,6 +36,5 @@ This is a notebook we found on [Kaggle](https://www.kaggle.com/code/kirollosashr
 ```
 cd model
 python model.py
-rm ../app/model/class_indices.json ../app/model/final_model.h5
 mv class_indices.json ../app/model/ && mv final_model.h5 ../app/model/
 ```
