@@ -2,7 +2,7 @@
 <img src="https://github.com/zhxu33/ecs170_project/assets/77419802/53060682-9e60-41ed-bb32-1a12513e20ac" width="200">
 
 ## app
-This contains the flask app for human action prediction.
+This contains the flask web app for human action prediction.
 
 > ### Prerequisites
 ```
@@ -24,7 +24,7 @@ Download **archive.zip** from [Kaggle](https://www.kaggle.com/datasets/emirhanai
 ## model/
 
 > ### human-action-detection.ipynb
-This notebook is where we preprocessed data and experimented with models using CNN.
+This notebook is where we preprocessed data and experimented with MobileNet model using CNN.
 
-> ### human-action-detection-using-cnn.ipynb
-This is a notebook we found on [Kaggle](https://www.kaggle.com/code/kirollosashraf/human-action-detection-using-cnn) to use as a scaffolding resource.
+> ### human-action-detection-using-efficientnet.ipynb
+This is the final model we built with EfficientNet.
