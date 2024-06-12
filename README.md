@@ -24,7 +24,7 @@ Download **archive.zip** from [Kaggle](https://www.kaggle.com/datasets/emirhanai
 ## model/
 
 > ### human-action-detection.ipynb
-This notebook is where we preprocessed data and experimented with MobileNet model using CNN.
+This notebook is where we preprocessed data and experimented with MobileNet CNN model.
 
 > ### human-action-detection-using-efficientnet.ipynb
-This is the final model we built with EfficientNet.
+This is the final model we built with EfficientNet CNN.
